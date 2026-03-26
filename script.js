@@ -111,14 +111,14 @@ const resultBands = [
   {
     maxRatio: 0.74,
     title: 'Fetichista de la moral',
-    category: 'Campeón del pudor',
+    category: 'Guardián del decoro',
     description:
       'Eres un "bienqueda" con un censor interno que trabaja horas extra.',
   },
   {
     maxRatio: 0.89,
     title: 'Censor del mes',
-    category: 'Campeón del pudor',
+    category: 'Inspector de la moral',
     description:
       '“Eres tan almidonado que si te sientas rápido, te rompes. Tu hábitat natural es una junta de vecinos donde se discute el grosor permitido de las cortinas. Para ti, el desmadre empieza en cuanto alguien sonríe con demasiados dientes.”',
   },
