@@ -256,10 +256,8 @@ function applyDeviceProfile() {
   root.dataset.device = currentDeviceProfile;
 
   if (deviceHint) {
-    deviceHint.textContent =
-      currentDeviceProfile === 'mobile'
-        ? 'Modo smartphone: botones más grandes y menos animaciones para responder con el pulgar.'
-        : 'Modo PC: vista optimizada para leer rápido y calcular tu drama sin estorbar.';
+    deviceHint.textContent = '';
+    deviceHint.hidden = true;
   }
 
   if (submitButton) {
