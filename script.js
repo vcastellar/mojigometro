@@ -83,7 +83,7 @@ const resultBands = [
   {
     maxRatio: 0.14,
     title: 'Liberal de boquilla',
-    category: 'Libertino de sofá'',
+    category: 'Libertino de sofá',
     description:
       'Dices que "el cuerpo es natural" y que "hay que ser libre", pero si ves a tu vecino en calzoncillos bajando la basura, llamas al administrador. Tienes un pudor residual que te sale por los poros en cuanto la situación se pone mínimamente "marrana"',
   },
