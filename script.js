@@ -28,7 +28,7 @@ const questions = [
     weight: 8,
   },
   {
-    text: '¿En una playa nudista te mantienes vestido o evitas participar como el resto?',
+    text: '¿Has sentido la necesidad de bajar el volumen cuando en una serie empiezan a gemir… aunque estés solo en casa?',
     weight: 6,
   },
   {
@@ -40,7 +40,7 @@ const questions = [
     weight: 7,
   },
   {
-    text: '¿En una playa nudista eres el único espécimen que se pasea sin airear?',
+    text: '¿Has pensado “esto se está yendo de madre” en una conversación que en realidad iba sobre croquetas?',
     weight: 7,
   },
   {
