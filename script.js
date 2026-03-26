@@ -1,42 +1,42 @@
 const questions = [
   {
-    text: '¿Escuchas una canción de moda en la radio sin decir que "la música de antes sí que valía la pena"?',
+    text: '¿En un funeral, si de repente a alguien se le escapa un pedo sonoro y con eco, miras al suelo fingiendo que analizas la veta del mármol?',
     weight: 5,
   },
   {
-    text: '¿Posas encantado cuando alguien propone una foto de grupo, sin esfumarte como si la cámara te fuera a absorber el alma?',
+    text: 'Cuando ves a una pareja dándose el lote por la calle, te incomoda tanto que prefieres apartar la mirada o hacer como si no fuera contigo?',
     weight: 6,
   },
   {
-    text: '¿Eres capaz de entrar a un grupo de WhatsApp y ver un sticker de "Feliz Jueves" sin que te suba la tensión?',
+    text: 'Si te envían por error un vídeo “picante” al grupo de WhatsApp familiar, decides no decir nada por indignación o incomodidad?',
     weight: 7,
   },
   {
-    text: '¿Ves un video de un perrito tierno sin pensar en la cantidad de pelos que debe soltar en el sofá?',
+    text: '¿Evitas usar tacos en conversaciones normales, incluso en situaciones donde sería lo más natural?',
     weight: 5,
   },
   {
-    text: '¿Crees que el lunes es simplemente un día más y no un ataque personal del universo contra ti?',
+    text: '¿En una cena, si alguien empieza un chiste verde, te levantas discretamente para no escucharlo?',
     weight: 7,
   },
   {
-    text: '¿Puedes ir al supermercado un sábado por la tarde sin desear que un rayo desintegre a la gente que camina lento?',
+    text: '¿Te consideras muy defensor de la libertad, pero te molesta profundamente que alguien no use servilleta?',
     weight: 8,
   },
   {
-    text: 'Si un amigo te cuenta un proyecto con ilusión, ¿evitas listarle inmediatamente los 10 motivos por los que va a fracasar?',
+    text: '¿Tiendes a ver las proporciones de las estatuas clásicas como el ideal “correcto” de belleza?',
     weight: 8,
   },
   {
-    text: '¿Aceptas un cumplido sin gruñir ni mirar al suelo como si te estuvieran robando el alma?',
+    text: '¿En una playa nudista te mantienes vestido o evitas participar como el resto?',
     weight: 6,
   },
   {
-    text: 'Alguien te dice "¡Buenos días!" con alegría un lunes a las 8:00 AM. ¿Consigues no desearle una desgracia personal inmediata?',
+    text: '¿Aunque crees no tener prejuicios, en situaciones tensas te sale pedir “un poco de respeto”?',
     weight: 9,
   },
   {
-    text: '¿Eres capaz de ver a una pareja de enamorados en el parque sin calcular mentalmente cuánto tardarán en engañarse el uno al otro?',
+    text: '¿Si un amigo aparece en una cena formal con una camiseta incómoda o inapropiada, evitas presentarlo a otros por vergüenza?',
     weight: 7,
   },
   {
