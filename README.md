@@ -1,1 +1,1 @@
-https://vcastellar.github.io/amargometro/
+https://vcastellar.github.io/mojigometro
