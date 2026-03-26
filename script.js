@@ -111,7 +111,7 @@ const resultBands = [
   {
     maxRatio: 0.74,
     title: 'Fetichista de la moral',
-    category: 'Talibán del pudor',
+    category: 'Campeón del pudor',
     description:
       'Eres un "bienqueda" con un censor interno que trabaja horas extra.',
   },
