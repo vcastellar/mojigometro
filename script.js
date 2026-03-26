@@ -111,7 +111,7 @@ const resultBands = [
   {
     maxRatio: 0.74,
     title: 'Fetichista de la moral',
-    category: 'Guardián del decoro',
+    category: 'Comisario del decoro',
     description:
       'Eres un "bienqueda" con un censor interno que trabaja horas extra.',
   },
