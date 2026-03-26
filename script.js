@@ -60,7 +60,7 @@ const questions = [
     weight: 6,
   },
   {
-    text: 'En el supermercado, ¿puedes esperar tu turno sin mirar la nuca del que va delante como si quisieras hacerle explotar la cabeza con la mente?',
+    text: '¿Te incomoda tanto ver a alguien comiendo un plátano de forma sugerente que apartas la mirada automáticamente?',
     weight: 8,
   },
   {
