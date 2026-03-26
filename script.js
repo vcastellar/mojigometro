@@ -118,7 +118,7 @@ const resultBands = [
   {
     maxRatio: 0.89,
     title: 'Censor del mes',
-    category: 'Talibán del pudor',
+    category: 'Campeón del pudor',
     description:
       '“Eres tan almidonado que si te sientas rápido, te rompes. Tu hábitat natural es una junta de vecinos donde se discute el grosor permitido de las cortinas. Para ti, el desmadre empieza en cuanto alguien sonríe con demasiados dientes.”',
   },
