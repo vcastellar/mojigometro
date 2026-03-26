@@ -4,27 +4,27 @@ const questions = [
     weight: 5,
   },
   {
-    text: 'Cuando ves a una pareja dándose el lote por la calle, te incomoda tanto que prefieres apartar la mirada o hacer como si no fuera contigo?',
+    text: '¿Si te pasan un vídeo de contenido “picante” por error en el grupo de WhatsApp de la familia, decides no contestar, indignado?',
     weight: 6,
   },
   {
-    text: 'Si te envían por error un vídeo “picante” al grupo de WhatsApp familiar, decides no decir nada por indignación o incomodidad?',
+    text: '¿Vas por la calle, ves a una pareja dándose el lote y llegas a pensar que igual es un intento de reanimación y te planteas llamar a una ambulancia?',
     weight: 7,
   },
   {
-    text: '¿Evitas usar tacos en conversaciones normales, incluso en situaciones donde sería lo más natural?',
+    text: '¿Recurres al uso de tacos y palabrotas en una conversación normal solo si te martilleas un dedo, y además pides perdón después?',
     weight: 5,
   },
   {
-    text: '¿En una cena, si alguien empieza un chiste verde, te levantas discretamente para no escucharlo?',
+    text: '¿En una cena, si alguien empieza a contar un chiste verde de los que harían sonrojar a una estatua, te levantas para ir al baño hasta que acabe?',
     weight: 7,
   },
   {
-    text: '¿Te consideras muy defensor de la libertad, pero te molesta profundamente que alguien no use servilleta?',
+    text: '¿Defiendes la libertad total pero te escandalizas si alguien no usa servilleta?',
     weight: 8,
   },
   {
-    text: '¿Tiendes a ver las proporciones de las estatuas clásicas como el ideal “correcto” de belleza?',
+    text: '¿Piensas que las proporciones de las estatuas clásicas son “perfectas”?',
     weight: 8,
   },
   {
@@ -32,7 +32,7 @@ const questions = [
     weight: 6,
   },
   {
-    text: '¿Aunque crees no tener prejuicios, en situaciones tensas te sale pedir “un poco de respeto”?',
+    text: '¿Crees que no tienes prejuicios, pero en situaciones de presión te brota el “¡Por favor, un poco de respeto!”?',
     weight: 9,
   },
   {
@@ -40,23 +40,23 @@ const questions = [
     weight: 7,
   },
   {
-    text: '¿Puedes escuchar el éxito de reggaetón del verano sin dar un discurso no solicitado sobre la muerte de la cultura occidental?',
+    text: '¿En una playa nudista eres el único espécimen que se pasea sin airear?',
     weight: 7,
   },
   {
-    text: 'Si un niño te sonríe en el transporte público, ¿le devuelves el gesto en lugar de mirar al infinito con cara de "por qué no se callará"?',
+    text: '¿Si un amigo tuyo aparece en una cena formal con una camiseta con una imagen hiperrealista de una colonoscopia, sientes vergüenza ajena y evitas presentárselo a nadie?',
     weight: 6,
   },
   {
-    text: '¿Puedes ver un mensaje de "Feliz Jueves" con un gatito en el grupo de la familia sin sentir un impulso violento de abandonar el chat?',
+    text: '¿En el gimnasio, si en las duchas hay un señor de 80 años paseándose totalmente desnudo mientras se seca los pies con el secador de manos común, piensas que “un poco de pudor y decoro no vendrían mal en este centro”?',
     weight: 8,
   },
   {
-    text: '¿Ves un vídeo de un cachorro y piensas en su ternura antes que en el olor a perro mojado y las facturas del veterinario?',
+    text: '¿Si estás viendo una película con tus padres y aparece una escena de sexo explícito de 5 minutos con gemidos en Dolby Surround, te levantas a la cocina a por algo que no necesitas?',
     weight: 5,
   },
   {
-    text: '¿Eres capaz de admitir que hace un día bonito sin añadir un: "bueno, pero mañana seguro que refresca"?',
+    text: '¿Si un amigo “graciosillo” te regala un libro de colorear titulado “Mandala-Potorros: Encuentra tu paz interior pintando genitales”, te ríes forzadamente, dices “qué loco estás” y lo guardas en el cajón de los calcetines “por si acaso” (pero con la puerta cerrada con llave)?',
     weight: 6,
   },
   {
@@ -64,70 +64,70 @@ const questions = [
     weight: 8,
   },
   {
-    text: '¿Eres capaz de felicitar a alguien sin que tu voz suene como un motor gripado?',
+    text: '¿Alguna vez has dicho algo así como “Es una fresca”?',
     weight: 8,
   },
   {
-    text: '¿Crees que es posible que te pase algo bueno hoy sin que sea una trampa del destino para fastidiarte mañana?',
+    text: '¿Después de hacer este test has pensado “Esto es un poco vulgar, ¿no?”?',
     weight: 9,
   },
 ];
 
 const scoreMap = {
-  sí: 0,
+  sí: 1,
   a_veces: 0.55,
-  no: 1,
+  no: 0,
 };
 
 const resultBands = [
   {
     maxRatio: 0.14,
-    title: 'Alérgico a la sonrisa',
-    category: 'Amargura leve con esperanza',
+    title: 'Liberal de boquilla',
+    category: 'Liberal de boquilla',
     description:
-      'Todavía conservas un hilo de humanidad. Te quejas de lo normal, pero sigues siendo el amargado promedio de oficina con margen de rescate.',
+      'Dices que "el cuerpo es natural" y que "hay que ser libre", pero si ves a tu vecino en calzoncillos bajando la basura, llamas al administrador. Tienes un pudor residual que te sale por los poros en cuanto la situación se pone mínimamente "marrana"',
   },
   {
     maxRatio: 0.28,
-    title: 'Aguafiestas ceñudo',
-    category: 'Amargura funcional',
+    title: 'Pudoroso asintomático',
+    category: 'Pudoroso asintomático',
     description:
-      'Tienes la acidez de un yogur caducado. Bufas con elegancia y te incomoda la felicidad ajena, aunque aún logras disimular en reuniones familiares.',
+      'En el fondo te gustaría pintar mandalas para adultos, pero te preocupa que el espíritu de tu abuela te vigile desde el cuadro del pasillo.',
   },
   {
     maxRatio: 0.42,
-    title: 'Sommelier de la queja',
-    category: 'Amargura entrenada',
+    title: 'Hipócrita de guante blanco',
+    category: 'Hipócrita de guante blanco',
     description:
-      'Tu deporte favorito es el suspiro de desprecio. Si ves un arcoíris, buscas dónde está la mancha de aceite antes de admitir que es bonito.',
+      'No eres un santo, pero te encanta que los demás piensen que sí. Te escandalizas en público pero en privado buscas en Google cosas que harían temblar al mismísimo Marqués de Sade. Eres el típico que dice "¡Qué horror!" mientras se pone las gafas para ver mejor el desastre. Tu mojigatería es de postureo, pero el juicio final te pillará con el historial del navegador sin borrar.',
   },
   {
     maxRatio: 0.58,
-    title: 'Bilis Premium',
-    category: 'Amargura seria',
+    title: 'Mojigato de closet',
+    category: 'Mojigato de closet',
     description:
-      'Has hecho de la bilis un arte. No solo estás molesto: diseñas nuevas formas de estarlo y conviertes cualquier comentario alegre en una objeción técnica.',
+      'Vas de moderno por la vida, usas zapatillas de marca y dices "tío" cada tres frases, pero el libro de los potorros te ha provocado un microinfarto.',
   },
   {
     maxRatio: 0.74,
-    title: 'Sultán de la Mala Leche',
-    category: 'Amargura avanzada',
+    title: 'Fetichista de la moral',
+    category: 'Fetichista de la moral',
     description:
-      'Tu presencia corta la leche a tres metros. Tienes lista negra mental, criterio agrio y una capacidad admirable para arruinar un “qué buen día hace”.',
+      'Eres un "bienqueda" con un censor interno que trabaja horas extra.',
   },
   {
     maxRatio: 0.89,
-    title: 'Agujero negro',
-    category: 'Amargura extrema',
+    title: 'Censor del mes',
+    category: 'Censor del mes',
     description:
-      'Absorbes cualquier rastro de luz o alegría en varios metros a la redonda. El mundo te parece un error de diseño que tú habrías gestionado mejor.',
+      '“Eres tan almidonado que si te sientas rápido, te rompes. Tu hábitat natural es una junta de vecinos donde se discute el grosor permitido de las cortinas. Para ti, el desmadre empieza en cuanto alguien sonríe con demasiados dientes.”',
   },
   {
     maxRatio: 1,
-    title: 'General del Mal Fario',
+    title: 'Fósil viviente',
     category: 'Jefe final de la amargura',
     description:
-      'Eres el jefe final de la amargura. No tienes sangre: tienes vinagre de Módena. El Grinch a tu lado parece un monitor de campamento.',
+      'Eres tan mojigato que pides permiso para desnudarte delante del espejo. Tu nivel de puritanismo es capaz de detener una orgía a tres kilómetros de distancia solo con tu mirada de reprobación. Probablemente creas que el reggaetón es una invocación satánica y que las rodillas descubiertas son pecado. ¡Suéltate un poco, que la vida son dos días y ya llevas uno!',
   },
 ];
 
