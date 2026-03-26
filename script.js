@@ -83,49 +83,49 @@ const resultBands = [
   {
     maxRatio: 0.14,
     title: 'Liberal de boquilla',
-    category: 'Liberal de boquilla',
+    category: 'Libertino de sofá'',
     description:
       'Dices que "el cuerpo es natural" y que "hay que ser libre", pero si ves a tu vecino en calzoncillos bajando la basura, llamas al administrador. Tienes un pudor residual que te sale por los poros en cuanto la situación se pone mínimamente "marrana"',
   },
   {
     maxRatio: 0.28,
     title: 'Pudoroso asintomático',
-    category: 'Pudoroso asintomático',
+    category: 'Casto en diferido',
     description:
       'En el fondo te gustaría pintar mandalas para adultos, pero te preocupa que el espíritu de tu abuela te vigile desde el cuadro del pasillo.',
   },
   {
     maxRatio: 0.42,
     title: 'Hipócrita de guante blanco',
-    category: 'Hipócrita de guante blanco',
+    category: 'Doble moral deluxe',
     description:
       'No eres un santo, pero te encanta que los demás piensen que sí. Te escandalizas en público pero en privado buscas en Google cosas que harían temblar al mismísimo Marqués de Sade. Eres el típico que dice "¡Qué horror!" mientras se pone las gafas para ver mejor el desastre. Tu mojigatería es de postureo, pero el juicio final te pillará con el historial del navegador sin borrar.',
   },
   {
     maxRatio: 0.58,
     title: 'Mojigato de closet',
-    category: 'Mojigato de closet',
+    category: 'Guardián del decoro',
     description:
       'Vas de moderno por la vida, usas zapatillas de marca y dices "tío" cada tres frases, pero el libro de los potorros te ha provocado un microinfarto.',
   },
   {
     maxRatio: 0.74,
     title: 'Fetichista de la moral',
-    category: 'Fetichista de la moral',
+    category: 'Talibán del pudor',
     description:
       'Eres un "bienqueda" con un censor interno que trabaja horas extra.',
   },
   {
     maxRatio: 0.89,
     title: 'Censor del mes',
-    category: 'Censor del mes',
+    category: 'Talibán del pudor',
     description:
       '“Eres tan almidonado que si te sientas rápido, te rompes. Tu hábitat natural es una junta de vecinos donde se discute el grosor permitido de las cortinas. Para ti, el desmadre empieza en cuanto alguien sonríe con demasiados dientes.”',
   },
   {
     maxRatio: 1,
     title: 'Fósil viviente',
-    category: 'Jefe final de la amargura',
+    category: 'Inquisidor sel siglo XV',
     description:
       'Eres tan mojigato que pides permiso para desnudarte delante del espejo. Tu nivel de puritanismo es capaz de detener una orgía a tres kilómetros de distancia solo con tu mirada de reprobación. Probablemente creas que el reggaetón es una invocación satánica y que las rodillas descubiertas son pecado. ¡Suéltate un poco, que la vida son dos días y ya llevas uno!',
   },
